@@ -1,0 +1,28 @@
+neighbor Zach
+
+extensions 
+- vscode-icons
+- bracket pair
+- php intellisense
+- php server
+
+settings 
+for git:
+> edit in setting.json
+> terminal.integrated.shell.windows 
+chnge "powershell.exe"
+paste path from canvas resources
+(ctrl `(carrot)) to bring up terminal
+hit plus sign   
+
+getbootstrap.com > docu. > get started > copy get started code > delete integraty
+
+in project folder > right click > git bash here > look at capture ( last three lines of code )
+
+for videos > pixabay.com > search anything > when find theres a dropdown and select videos
+
+for google fonts use @import
+
+in vs code to open terminal ctrl + `
+
+npm 

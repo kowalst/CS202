@@ -1,0 +1,29 @@
+/* selector & decloration */
+/* selector { propername:value;} */
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+
+/* css variables - root & var() */
+:root{
+    --main-color: pink;
+    --text-color: black;
+}
+p{
+    /* color: blue !important; */
+    color: var(--text-color);
+
+}
+body{
+    /* font-style: initial;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 150%;
+    font-family: Arial, Helvetica, sans-serif; */
+
+    /* shorthand */
+    font: italic small-caps bold 13px/150% 'Coiny', cursive;
+    background-color: var(--main-color);
+}
+h3{
+    font-family: 'Courier New', Courier, monospace !important;
+}
