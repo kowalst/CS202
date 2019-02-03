@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700');
+:root{
+    --white-color: #ffffff !important;
+    --main-color: #697e83;
+    --display-style: inline-block;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f4f4;
+    margin: 0px;
+    padding: 0px;
+    font: 20px/1.5 'Nunito', sans-serif;
+}
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 5;
+}
+header .logo{
+    transform: uppercase;
+    letter-spacing: .2em;
+    size: 700;
+    color: var(--main-color);
+}
+header div .logo{
+    float: left;
+    padding: 1em 3.5em 1em 0.5em;
+}
+header nav{
+    background: transparent !important;
+}
+nav a{
+    padding: 1em 3.5em 1em 0.5em;
+    display: var(--display-style);
+    color: var(--white-color);
+}
+a{
+    text-align: center;
+    transition: .3s all ease, -webkit-transition, -o-transition;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #35424a
+}
+.heroimage{
+    background: url(../images/home.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.main-padding{
+    padding: 7em 0em;
+}
+.sideleft{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 7em 0em;
+}
+.sub-heading{
+    transform: uppercase;
+    font-size: 12px;
+    color: #cccccc;
+    letter-spacing: .1em;
+}
+.heading{
+    size: 50px;
+    margin-bottom: 30px;
+}
+.button{
+    background-color: #697e83;
+    transition: .3s all  ease;
+    padding: 12px 30px;
+    margin-top: 1em;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    color: var(--white-color);
+    border: none;
+    cursor: pointer;
+}
+.button:hover{
+    color: #697e83;
+    background-color: var(--white-color);
+    border: 2px solid #697e83;
+}
+.sideright{
+    width: 60%;
+    float: right;
+    padding-top: 8%;
+}
+.bg-color{
+    background-color: #f8f9fa !important;
+    background-size: cover !important;
+}
+.feature{
+    text-align: center;
+}
+.feature-image{
+    position: relative;
+}
+.feature-image img{
+    display: var(--display-style);
+    width: 300px;
+    margin: 1em;
+}
+.newsletter{
+    padding: 2em;
+    color: var(--white-color);
+    background-color: #35424a;
+    background-size: cover !important;
+    overflow: hidden;
+}
+.newsletter h1{
+    float: left;
+}
+.newsletter form{
+    float: right;
+    margin: 10px;
+}
+.newsletter input[type="email"]{
+    padding: 12px 30px;
+    height: 2.7em;
+    width: 250px;
+}
+.foot{
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin-bottom: 4em;
+}
+.main-footer{
+    padding: 4em 0em 0.9em 0em;
+    background-color: #f2f2f2;
+}
+.copyright{
+    text-align: center;
+}
+.rooms-pic-1{
+    max-width: 30%;
+    display: var(--display-style);
+    position: relative;
+    overflow: hidden;
+    padding: 0 1em;
+}
+.rooms-pic-1 figure{
+    float: left;
+}
+.rooms-body{
+    background-color: var(--white-color) !important;
+    padding: 30px;
+    border: 1px solid #e6e6e6;
+    border-top: none;
+}
+figure .img{
+    max-width: 100%;
+    height: auto;
+}
+.contactform input[type="text"].contactform input[type="email"].contactform textarea{
+    display: block;
+    width: 100%;
+    padding: 0.375em 0.74rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: var(--white-color);
+    background-clip: 1px solid #ced4da;
+    border: 1px solid #ced4da;
+    /* padding-box: 1px solid #ced4da; */
+}
+.contactform{
+    width: 70%;
+    padding-bottom: 4em;
+}
+.item{
+    width: 330px;
+    display: var(--display-style);
+    margin: 1rem;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.item img{
+    width: 100%;
+    height: 100%;
+}
+.item img:hover{
+    box-shadow: 0 8px 16px rgba(0,0,0,0.25), 0 5px rgba(0,0,0,0.22);
+    cursor: pointer;
+}

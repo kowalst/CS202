@@ -1,4 +1,3 @@
-neighbor Zach
 
 extensions 
 - vscode-icons
@@ -25,4 +24,6 @@ for google fonts use @import
 
 in vs code to open terminal ctrl + `
 
-npm 
+-- create new file ---
+touch 
+touch lesson.html

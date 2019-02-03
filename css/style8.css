@@ -1,0 +1,31 @@
+.box1{
+    width: 500px;
+    height: 300px;
+    background: linear-gradient(to bottom, green, yellow);
+    margin-bottom: 10px;
+    position: relative;
+}
+.box2{
+    width: 500px;
+    height: 300px;
+    background: linear-gradient(to right, #544a7d, #ffd452);
+    margin-bottom: 10px;
+    position: relative;
+}
+.box3{
+    width: 500px;
+    height: 300px;
+    background: tomato;
+    margin-bottom: 10px;
+    position: relative;
+    transition-property: background-color width border-radius;
+    transition-duration: 4s 2s 5s;
+    transition-delay: 2s;
+    transition-timing-function: ease-in;
+}
+
+.box3:hover{
+    background-color: #009fff;
+    width: 300px;
+    background-repeat: 50%;
+}

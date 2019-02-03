@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700');
+*{
+    box-sizing: border-box;
+}
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+.copyright{
+    text-align: center;
+}
+body{
+    background-color: #f4f4f4;
+    margin: 0px;
+    padding: 0px;
+    font: 20px/1.5 'Nunito', sans-serif;
+}
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 5;
+}
+header .logo{
+    transform: uppercase;
+    letter-spacing: .2em;
+    size: 700;
+    color: white;
+}
+header>div .logo{
+    float: left;
+    padding: 1em 3.5em 1em 0.5em;
+}
+header nav{
+    background: transparent !important;
+}
+nav a{
+    padding: 1em 3.5em 1em 0.5em;
+    display: inline block;
+    color: #ffffff;
+}
+a{
+    text-align: center;
+    transition: .3s all ease, -webkit-transition, -o-transition;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #35424a
+}
+.heroimage{
+    background: url(../images/home.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.main-padding{
+    padding: 7em 0em;
+}
+.sideleft{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 7em 0em;
+}
+.sub-heading{
+    transform: uppercase;
+    font-size: 12px;
+    color: #cccccc;
+    letter-spacing: .1em;
+}
+.heading{
+    size: 50px;
+    margin-bottom: 30px;
+}
+.button{
+    background-color: #697e83;
+    transition: .3s all  ease;
+    padding: 12px 30px;
+    margin-top: 1em;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.button:hover{
+    color: #697e83;
+    background-color: #ffffff;
+    border: 2px solid #697e83;
+}
+.sideright{
+    width: 60%;
+    float: right;
+    padding-top: 8%;
+}
+.bg-color{
+    background-color: #f8f9fa !important;
+    background-size: cover !important;
+}
+.feature{
+    text-align: center;
+}
+.feature-image{
+    position: relative;
+}
+.feature-image img{
+    display: inline-block;
+    width: 300px;
+    margin: 1em;
+}
+.newsletter{
+    padding: 2em;
+    color: #ffffff;
+    background-color: #35424a;
+    background-size: cover !important;
+    overflow: hidden;
+}
+.newsletter h1{
+    float: left;
+}
+.newsletter form{
+    float: right;
+    margin: 10px;
+}
+.newsletter input[type="email"]{
+    padding: 12px 30px;
+    height: 2.7em;
+    width: 250px;
+}
+.foot{
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin-bottom: 4em;
+}
+.main-footer{
+    padding: 4em 0em 0.9em 0em;
+    background-color: #f2f2f2;
+}
+.copyright{
+    text-align: center;
+}
+.rooms-pic-1{
+    max-width: 30%;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    padding: 0 1em;
+}
+.rooms-pic-1 figure{
+    float: left;
+}
+.rooms-body{
+    background-color: #ffffff !important;
+    padding: 30px;
+    border: 1px solid #e6e6e6;
+    border-top: none;
+}
+figure .img{
+    max-width: 100%;
+    height: auto;
+}
